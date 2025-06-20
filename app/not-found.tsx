@@ -1,4 +1,5 @@
 "use client";
+//'use client' directive declares an entry point for the components to be rendered on the client side
 
 import { Button } from "@/components/ui/button";
 import { APP_NAME } from "@/lib/constants";
