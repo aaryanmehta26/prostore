@@ -11,8 +11,6 @@ const ProductList = ({
   title?: string;
   limit?: number;
 }) => {
-  console.log("####", data);
-
   const limitedData = data.slice(0, limit);
   return (
     <div className="my-10">
